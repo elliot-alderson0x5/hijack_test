@@ -1,0 +1,19 @@
+name: '&8My Inventory'
+size: 9
+items:
+  btn-0:
+    slot: 0
+    item:
+      material: STONE
+      amount: 2
+      name: Saspen
+      lore:
+        - '12134'
+      glow: true
+    actions:
+      - type: 'console command'
+        commands:
+          - 'bc test'
+      - type: 'console command'
+        commands:
+          - 'papi parse %player% %vault_eco_balance%'
